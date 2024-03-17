@@ -3,11 +3,11 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import "./index.css";
 
-const navigation = [
-  { name: "Algorithm", href: "/docs/intro" },
-  { name: "Javascript", href: "/docs/intro" },
-  { name: "About", href: "/docs/intro" },
-];
+// const navigation = [
+//   { name: "Algorithm", href: "/docs/intro" },
+//   { name: "Javascript", href: "/docs/intro" },
+//   { name: "About", href: "/docs/intro" },
+// ];
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -65,11 +65,11 @@ export default function Home() {
               </button>
             </div>
             <div className="hidden lg:flex lg:gap-x-12">
-              {navigation.map((item) => (
+              {/* {navigation.map((item) => (
                 <Link key={item.name} href={item.href} className="-m-1.5 p-1.5">
                   {item.name}
                 </Link>
-              ))}
+              ))} */}
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <a
