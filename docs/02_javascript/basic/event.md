@@ -70,4 +70,5 @@ document.getElementById('list').addEventListener('click', function(e){
 ### 推薦閱讀
 
 英文: Bubbling and capturing, Event delegation： <https://javascript.info/bubbling-and-capturing>, <https://javascript.info/event-delegation>
+
 中文: 重新認識 JavaScript: Day 14 事件機制的原理 、Huli 的 DOM 的事件傳遞機制：捕獲與冒泡 : <https://blog.huli.tw/2017/08/27/dom-event-capture-and-propagation/>
