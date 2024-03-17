@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 tags:
   - interview
 ---
@@ -10,7 +10,7 @@ Let's discover algorithms and data structures.
 
 # Big O notation
 
-### O(1) :
+### O(1)
 
 Always 3 operations: O(1) (big O of one)
 
@@ -20,7 +20,7 @@ function addUpTo(n) {
 }
 ```
 
-### O(n) :
+### O(n)
 
 Numbers of operations: O(n) (big O of n)
 
@@ -36,7 +36,7 @@ function addUpTo(n) {
 
 So we can just simplify this and say that the big o of this is o of n, because as n grows, the number of operations grows in proportion with n.
 
-### O(n2) :
+### O(n2)
 
 O(n) operation inside of an O(n) operation, will be O of n sqaure
 

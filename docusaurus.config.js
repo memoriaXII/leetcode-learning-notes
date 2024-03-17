@@ -19,13 +19,25 @@ module.exports = {
       },
     },
     colorMode: {
-      defaultMode: "dark",
-      disableSwitch: true,
+      defaultMode: "light",
+      disableSwitch: false,
       respectPrefersColorScheme: false,
     },
     navbar: {
       title: "Algorithm Notes",
       items: [
+        {
+          type: "doc",
+          docId: "topics/intro",
+          position: "left",
+          label: "Topics",
+        },
+        {
+          type: "doc",
+          docId: "javascript/intro",
+          position: "left",
+          label: "JavaScript",
+        },
         {
           type: "doc",
           docId: "algorithm/intro",
@@ -34,9 +46,9 @@ module.exports = {
         },
         {
           type: "doc",
-          docId: "topics/intro",
+          docId: "interview/intro",
           position: "left",
-          label: "Topics",
+          label: "Interview",
         },
         {
           href: "https://github.com/memoriaXII/leetcode-learning-notes",
