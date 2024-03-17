@@ -67,8 +67,34 @@ document.getElementById('list').addEventListener('click', function(e){
 }
 ```
 
+// 选择共同的父元素
+
+```jsx
+const list = document.getElementById('list');
+```
+
+// 绑定事件监听器
+
+```jsx
+list.addEventListener('click', function(event) {
+    // 检查目标元素
+    if (event.target.tagName === 'LI') {
+        // 执行相应操作
+        console.log(event.target.textContent);
+    }
+});
+```
+
+### Tree Maps
+
+![alt text](image-5.png)
+
 ### 推薦閱讀
 
 英文: Bubbling and capturing, Event delegation： <https://javascript.info/bubbling-and-capturing>, <https://javascript.info/event-delegation>
 
-中文: 重新認識 JavaScript: Day 14 事件機制的原理 、Huli 的 DOM 的事件傳遞機制：捕獲與冒泡 : <https://blog.huli.tw/2017/08/27/dom-event-capture-and-propagation/>
+中文:
+
+重新認識 JavaScript: Day 14 事件機制的原理 、Huli 的 DOM 的事件傳遞機制：捕獲與冒泡 : <https://blog.huli.tw/2017/08/27/dom-event-capture-and-propagation/>
+
+[Day 17] JS - 冒泡事件 (Event Bubbling): <https://ithelp.ithome.com.tw/articles/10265819>
